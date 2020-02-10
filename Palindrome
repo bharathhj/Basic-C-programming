@@ -2,7 +2,7 @@
 
 void main()
 {
-int n,digit,rev,temp;
+int n,digit,rev=0,temp;
 
 printf("Enter the digit:");
 scanf("%d",&n);
@@ -16,10 +16,10 @@ while(n!=0)
   n=n/10;
  }
  
- printf("The given digit is:%d",temp);
- printf("The reverse of the given number is:%d",rev);
+ printf("The given digit is:%d\n",temp);
+ printf("The reverse of the given number is:%d\n",rev);
  
- if(rev==digit)
+ if(rev==temp)
   {
     printf("It is a Palindrome");
    }
